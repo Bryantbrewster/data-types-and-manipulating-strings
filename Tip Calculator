@@ -3,6 +3,7 @@ bill = input("What was the total bill?\n")
 tip = input("What percentage tip would you like to leave? 10, 12, or 15?\n")
 people = input("How many people to split the bill?\n")
 
+# Converting the data types from strings (due to the input function)
 bill = float(bill)
 tip = float(tip)
 people = int(people)
